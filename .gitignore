@@ -1,0 +1,20 @@
+#
+# System SWAP, TMP and BACKUP files ###
+*~
+*.swp
+*.bak
+### Mac OS X directory preferences ###
+.DS_Store
+### CakePHP tmp content ###
+/app/tmp/*
+/app/tmp/cache/*
+/app/tmp/logs/*
+/app/tmp/sessions/*
+/app/tmp/tests/*
+#*/tmp/cache/*
+#*/tmp/logs/*
+#*/tmp/sessions/*
+#*/tmp/tests/*
+#ignore thumbnails created by windows ;)
+Thumbs.db
+/app/Config/database.php
